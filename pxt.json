@@ -4,7 +4,9 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-esp8266": "github:CytronTechnologies/pxt-esp8266#v2.0.0",
+        "SuperBit": "github:lzty634158/SuperBit#0a0d6cd2c18804f6b56e944d0c7ff7bd91473ec8"
     },
     "files": [
         "main.blocks",
