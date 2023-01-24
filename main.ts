@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
         basic.showString("" + (esp8266.getYear()))
         basic.showString(":")
         basic.showString("" + (esp8266.getMonth()))
-        basic.showString(":")
+        basic.showString("<<<<")
         basic.showString("" + (esp8266.getHour()))
         basic.showString(":")
         basic.showString("" + (esp8266.getMinute()))
@@ -25,7 +25,7 @@ if (esp8266.isWifiConnected()) {
     basic.showIcon(IconNames.No)
 }
 esp8266.initInternetTime(8)
-basic.showString("Initializing Internet Time")
+basic.showString(">>>>>>")
 if (esp8266.isInternetTimeInitialized()) {
     basic.showIcon(IconNames.Happy)
 } else {
